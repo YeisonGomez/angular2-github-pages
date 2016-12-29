@@ -1,0 +1,14 @@
+{
+  "name": "YeisonGomez.github.io",
+  "homepage": "https://github.com/YeisonGomez/YeisonGomez.github.io",
+  "description": "Github pages",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
