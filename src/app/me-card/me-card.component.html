@@ -1,16 +1,49 @@
 <md-sidenav-layout>
-    <md-sidenav #start (open)="closeStartButton.focus()">
-      Start Sidenav.
-      <br>
-      <button md-button #closeStartButton (click)="start.close()">Close</button>
-    </md-sidenav>
-    <md-sidenav #end align="end">
-      End Sidenav.
-      <button md-button (click)="end.close()">Close</button>
-    </md-sidenav>
+  <md-sidenav #sidenav mode="push" opened="true">
+    Sidebar here
+  </md-sidenav>
 
-    My regular content. This will be moved into the proper DOM at runtime.
-    <button md-button (click)="start.open()">Open start sidenav</button>
-    <button md-button (click)="end.open()">Open end sidenav</button>
-
-  </md-sidenav-layout>
+  <md-toolbar color="primary">
+    <button (click)="sidenav.open()">
+      menu
+    </button>
+    Angular Material 2 App
+  </md-toolbar>
+  <p>...</p>
+  <p>...</p>
+  <p>Position: {{top}}</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+</md-sidenav-layout>
