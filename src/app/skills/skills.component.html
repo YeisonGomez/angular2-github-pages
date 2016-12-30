@@ -1,3 +1,16 @@
-<p>
-  skills works!
-</p>
+<div class="content-skills">
+    <div class="container-skill">
+        <div class="float-left skill-panel-name rollIn">
+            <p>JavaScript</p>
+        </div>
+        <div class="float-left skill-panel-bars slideInLeft">
+            <div [style.width.%]="(350 * 100)/700"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- esta fórmula calcula el porcentaje (350 * 100)/700 o largo de la barra
+	el total es 700 que seria el máximo
+	donde está el 350 seria le nivel suyo con respecto al 700
+	por ejemplo 350 seria la mitad, solo cambia ese valor-->
