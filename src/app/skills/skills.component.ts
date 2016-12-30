@@ -15,12 +15,12 @@ export class SkillsComponent implements OnInit {
 				{ name: "HTML/CSS", lvl: 400 },
 				{ name: "Javascript", lvl: 650},
 				{ name: "AngularJS 1", lvl: 650, link: "https://angularjs.org/" },
-				{ name: "AngularJS 2", lvl: 500, link: "https://angular.io/docs/ts/latest/quickstart.html" }
+				{ name: "AngularJS 2", lvl: 550, link: "https://angular.io/docs/ts/latest/quickstart.html" }
 			]},
 			{ platform: "Backend", skills: [
 				{ name: "NodeJS", lvl: 550, link: "https://nodejs.org/es/" },
 				{ name: ".NET/Asmx", lvl: 500, link: "https://msdn.microsoft.com/en-us/library/ms972326.aspx" },
-				{ name: "Python/Flask", lvl: 350, link: "https://www.fullstackpython.com/flask.html" }
+				{ name: "Python/Flask", lvl: 400, link: "https://www.fullstackpython.com/flask.html" }
 			]},
 			{ platform: "Móvil", skills: [
 				{ name: "Ionic 1", lvl: 630, link: "http://ionicframework.com/docs/overview/" },
