@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+	tabs : any[];
+
+	constructor(){
+		this.tabs = [
+			{ name: "Skills", link: "/skills" }, 
+			{ name: "Proyectos", link: "/projects" }, 
+			{ name: "Extras", link: "/other" }
+		];
+	}
 }

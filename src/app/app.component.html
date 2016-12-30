@@ -1,2 +1,16 @@
-<app-me-card></app-me-card>
-<router-outlet></router-outlet>
+<md-sidenav-layout>
+	
+	<md-sidenav #sidenav mode="side" opened="true">
+		<app-me-card></app-me-card>
+	</md-sidenav>
+
+	<nav md-tab-nav-bar>
+	  <a md-tab-link
+		*ngFor="let tab of tabs"
+		[routerLink]="tab.link">
+		{{tab.name}}
+	  </a>
+	</nav>
+	<router-outlet></router-outlet>
+
+</md-sidenav-layout>
