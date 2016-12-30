@@ -11,3 +11,8 @@ md-sidenav {
     border-bottom: solid 2px #3385FF;
 }
 
+.cursor-hand{
+     cursor: hand;
+     cursor: pointer;
+}
+

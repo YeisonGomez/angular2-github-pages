@@ -1,16 +1,19 @@
 <div class="content-skills">
-    <div class="container-skill">
-        <div class="float-left skill-panel-name rollIn">
-            <p>JavaScript</p>
+
+    <section *ngFor="let platform of skills">
+        <div class="divider">{{platform.platform}}</div>
+        <br>
+        <div class="container-skill" *ngFor="let skill of platform.skills; let i = index">
+            <div class="float-left skill-panel-name rollIn">
+                <p>{{skill.name}}</p>
+            </div>
+            <div class="float-left skill-panel-bars" 
+                [ngClass]="{'slideInLeft': (i % 2 == 0), 'slideInRigth': (i % 2 != 0)}">
+                <div [style.width.%]="(skill.lvl * 100)/700"></div>
+            </div>
         </div>
-        <div class="float-left skill-panel-bars slideInLeft">
-            <div [style.width.%]="(350 * 100)/700"></div>
-        </div>
-    </div>
+    </section>
 </div>
+<br><br><br><br><br>
 
-
-<!-- esta fórmula calcula el porcentaje (350 * 100)/700 o largo de la barra
-	el total es 700 que seria el máximo
-	donde está el 350 seria le nivel suyo con respecto al 700
-	por ejemplo 350 seria la mitad, solo cambia ese valor-->
+<!-- 700 == max -->
