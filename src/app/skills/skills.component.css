@@ -7,6 +7,18 @@
   font-size: 1.15em;
 }
 
+.link{
+  color: #0066FF;
+  text-decoration: none!important;
+}
+.link:hover{
+  color: #0066FF!important;
+  text-decoration: underline!important;
+}
+.link:visited{
+    color: #0066FF;
+}
+
 .float-left {
     float: left;
 }
@@ -29,6 +41,7 @@
 
 .skill-panel-name p {
     vertical-align: middle;
+    font-size: 1vw;
 }
 
 .skill-panel-bars {
@@ -46,13 +59,13 @@
 /* animations */
 .rollIn{
     animation-name: rollIn;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: both;
 }
 
 .slideInLeft {
   animation-name: slideInLeft;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: both;
 }
 

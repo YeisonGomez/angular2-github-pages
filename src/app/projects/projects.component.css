@@ -6,7 +6,7 @@
 
 .project-container{
 	display: inline-block;
-    width: 25%;
+    width: 35%;
 	text-align: center;
 	margin-top: 5%;
 	margin-right: 5%;
@@ -29,7 +29,7 @@
     color: #676a6c;
 }
 .link{
-    color: #676a6c;
+    color: #0066FF;
 	text-decoration: none!important;
 }
 .link:hover{
@@ -37,5 +37,5 @@
 	text-decoration: underline!important;
 }
 .link:visited{
-    color: #676a6c;
+    color: #0066FF;
 }
