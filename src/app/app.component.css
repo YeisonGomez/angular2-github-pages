@@ -1,3 +1,13 @@
 md-sidenav {
   width: 30%;
 }
+
+[md-tab-link] {
+	width: 33%;
+}
+
+.tab-active{
+    color: #3385FF!important;
+    border-bottom: solid 2px #3385FF;
+}
+
