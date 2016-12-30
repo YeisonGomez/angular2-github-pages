@@ -1,0 +1,41 @@
+
+.project-content{
+	text-align: center;
+	margin-left: 30px;
+}
+
+.project-container{
+	display: inline-block;
+    width: 25%;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 5%;
+	background: whitesmoke;
+    box-shadow: 0 0 20px lightgrey;
+    padding: 10px; 
+}
+
+.project-container h1{
+	margin-top: 0;
+	color: #3385FF;
+}
+
+.project-img{
+    width: 30%;
+    height: 30%;
+}
+
+.project-description {
+    color: #676a6c;
+}
+.link{
+    color: #676a6c;
+	text-decoration: none!important;
+}
+.link:hover{
+	color: #0066FF!important;
+	text-decoration: underline!important;
+}
+.link:visited{
+    color: #676a6c;
+}
