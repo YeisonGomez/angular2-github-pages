@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { icons } from '../constants/icons';
 
 @Component({
   selector: 'app-skills',
@@ -14,17 +15,17 @@ export class SkillsComponent implements OnInit {
 			{ platform: "Web", skills: [
 				{ name: "HTML/CSS", lvl: 400 },
 				{ name: "Javascript", lvl: 650},
-				{ name: "AngularJS 1", lvl: 650, link: "https://angularjs.org/" },
-				{ name: "AngularJS 2", lvl: 550, link: "https://angular.io/docs/ts/latest/quickstart.html" }
+				{ name: icons.angular1.title, lvl: 650, link: icons.angular1.link },
+				{ name: icons.angular2.title, lvl: 550, link: icons.angular2.link }
 			]},
 			{ platform: "Backend", skills: [
-				{ name: "NodeJS", lvl: 550, link: "https://nodejs.org/es/" },
-				{ name: ".NET/Asmx", lvl: 500, link: "https://msdn.microsoft.com/en-us/library/ms972326.aspx" },
-				{ name: "Python/Flask", lvl: 400, link: "https://www.fullstackpython.com/flask.html" }
+				{ name: icons.nodejs.title, lvl: 620, link: icons.nodejs.link },
+				{ name: icons.asmx.title, lvl: 500, link: icons.asmx.link },
+				{ name: icons.flask.title, lvl: 400, link: icons.flask.link }
 			]},
 			{ platform: "Móvil", skills: [
-				{ name: "Ionic 1", lvl: 630, link: "http://ionicframework.com/docs/overview/" },
-				{ name: "Swift", lvl: 80, link: "http://www.apple.com/co/swift/" }
+				{ name: icons.ionic1.title, lvl: 630, link: icons.ionic1.link },
+				{ name: icons.swift.title, lvl: 50, link: icons.swift.link }
 			]}	
 		];
 	}

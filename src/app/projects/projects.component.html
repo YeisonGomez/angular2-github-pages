@@ -3,6 +3,11 @@
 		<img src="{{project.icon}}" alt="" class="project-img">
 		<a href="{{project.site}}" target="_blank" title="" class="link"><h1 class="blue-col">{{project.name}}</h1></a>
 		<p class="project-description">{{project.description}}</p>
+		<div *ngIf="project.util" class="profile-icons">
+			<a *ngFor="let fr of project.util" href="{{fr.link}}" target="_blank" title="{{fr.title}}">
+	            <img src="{{fr.icon}}" alt="{{fr.title}}">
+	        </a>
+        </div>
 	</div>
 </div>
 <br><br><br>
