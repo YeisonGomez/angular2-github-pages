@@ -9,13 +9,15 @@ import { AppRoutingModule }     from './app-routing.module';
 import { SkillsComponent } from './skills/skills.component';
 import { MeCardComponent } from './me-card/me-card.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ReferenceComponent } from './reference/reference.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillsComponent,
     MeCardComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ReferenceComponent
   ],
   imports: [
     BrowserModule,

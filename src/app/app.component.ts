@@ -12,7 +12,7 @@ export class AppComponent {
 		this.tabs = [
 			{ name: "Skills", link: "/skills" }, 
 			{ name: "Proyectos", link: "/projects" }, 
-			{ name: "Extras", link: "/other" }
+			{ name: "Referencias", link: "/references" }
 		];
 	}
 }
