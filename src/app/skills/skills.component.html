@@ -4,7 +4,7 @@
         <div class="divider">{{platform.platform}}</div>
         <br>
         <div class="container-skill" *ngFor="let skill of platform.skills; let i = index">
-            <div class="float-left skill-panel-name rollIn">
+            <div class="float-left skill-panel-name slideInLeft">
                 <a *ngIf="skill.link" href="{{skill.link}}" target="_blank" class="link"><p>{{skill.name}}</p></a>
                 <p *ngIf="!skill.link">{{skill.name}}</p>
             </div>

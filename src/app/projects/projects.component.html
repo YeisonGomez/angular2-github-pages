@@ -1,5 +1,8 @@
 <div class="project-content">	
-	<div class="project-container" *ngFor="let project of projects">
+	<div class="project-container" 
+		*ngFor="let project of projects; let i = index" 
+		[ngClass]="{'slideInLeft': (i % 2 == 0), 'slideInRigth': (i % 2 != 0)}">
+		
 		<img src="{{project.icon}}" alt="" class="project-img">
 		<a href="{{project.site}}" target="_blank" title="" class="link"><h1 class="blue-col">{{project.name}}</h1></a>
 		<p class="project-description">{{project.description}}</p>
