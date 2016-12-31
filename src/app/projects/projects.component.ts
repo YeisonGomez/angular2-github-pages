@@ -24,7 +24,7 @@ export class ProjectsComponent implements OnInit {
 				site: "http://chaira.udla.edu.co/api_dev/"
 			},
 			{ 
-				icon: "https://lh3.googleusercontent.com/LfSp5CcK_nW9IZCZwBKtz29AEZjWDdbSPtW8FdXcKu78miMUxVPdSt8WaDy0D8dkL_o=w300-rw",
+				icon: "https://firebasestorage.googleapis.com/v0/b/prego-22e63.appspot.com/o/icon.png?alt=media&token=42bb81e5-75be-4dcf-8a72-72dbd801fa85",
 				name: "Prego",
 				description: "Aplicación móvil para la automatización de grupos académicos y comunicación entre docentes y estudiantes de la Universidad de la Amazonia.",
 				site: "https://play.google.com/store/apps/details?id=com.ionic.prego146994"

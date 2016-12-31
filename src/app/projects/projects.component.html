@@ -1,9 +1,8 @@
 <div class="project-content">	
 	<div class="project-container" *ngFor="let project of projects">
 		<img src="{{project.icon}}" alt="" class="project-img">
-		<h1 class="blue-col">{{project.name}}</h1>
+		<a href="{{project.site}}" target="_blank" title="" class="link"><h1 class="blue-col">{{project.name}}</h1></a>
 		<p class="project-description">{{project.description}}</p>
-		<a href="{{project.site}}" target="_blank" title="" class="link">Sitio</a>
 	</div>
 </div>
 <br><br><br>
