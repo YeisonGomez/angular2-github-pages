@@ -7,7 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReferenceComponent implements OnInit {
 
-constructor() { }
+	references: any[];
+
+	constructor() { 
+		this.references = [
+			{ 	
+				name: "Universidad de la Amazonia",
+				logo: "http://chaira.udla.edu.co/Api/Resources/imgs/LogoUA.svg",
+				description: "La Universidad de la Amazonia se encuentra ubicada la ciudad colombiana de Florencia, capital del departamento del Caquetá.",
+				rol: "Desarrollador Full Stack",
+				site: "http://www.udla.edu.co/v10/"
+			}
+		];
+	}
 
 	ngOnInit() {
 	}

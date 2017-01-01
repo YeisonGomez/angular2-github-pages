@@ -10,7 +10,7 @@ export class AppComponent {
 
 	constructor(){
 		this.tabs = [
-			{ name: "Skills", link: "/skills" }, 
+			{ name: "Habilidades", link: "/skills" }, 
 			{ name: "Proyectos", link: "/projects" }, 
 			{ name: "Referencias", link: "/references" }
 		];
