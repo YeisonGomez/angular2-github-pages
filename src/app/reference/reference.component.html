@@ -1,4 +1,17 @@
-<div *ngFor="let reference of references">
-	<img src="{{reference.logo}}" alt="">
-	<span>{{reference.name}}</span>
+<br><br>
+<h1>En desarrollo..</h1>
+<div *ngFor="let reference of references; let i = index" 
+	[ngClass]="{'animation-left': reference.util, 'center-div': !reference.util}">
+
+	<a (click)="changeStateDescription(i)" [ngClass]="{'center-element': !reference.util, 'space-border': reference.util}">
+		<img src="{{reference.logo}}" alt="" class="circular shadown-border">
+	</a>
+
+	<a href="{{reference.site}}" target="_blank" class="link" [hidden]="reference.util">
+		<h2 class="blue-col">{{reference.name}}</h2>
+	</a>
+
+	<div style="background: lightgray;" class="information" [hidden]="!reference.util">
+		<h1>{{reference.name}}</h1>
+	</div>
 </div>

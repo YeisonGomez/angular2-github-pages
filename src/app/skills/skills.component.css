@@ -7,18 +7,6 @@
   font-size: 1.15em;
 }
 
-.link{
-  color: #0066FF;
-  text-decoration: none!important;
-}
-.link:hover{
-  color: #0066FF!important;
-  text-decoration: underline!important;
-}
-.link:visited{
-    color: #0066FF;
-}
-
 .float-left {
     float: left;
 }

@@ -1,0 +1,53 @@
+.information {
+	width: 70%; 
+	height: 6em;
+	float: left;
+	border-radius: 30px;
+	margin-top: 1%;
+}
+
+.center-div {
+	margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.circular {
+	width: 110px;
+    height: 110px;
+    border-radius: 100px;
+}
+
+.shadown-border {
+	-webkit-box-shadow: 7px 10px 28px 2px rgba(125,125,125,1);
+	-moz-box-shadow: 7px 10px 28px 2px rgba(125,125,125,1);
+	box-shadow: 7px 10px 28px 2px rgba(125,125,125,1);
+}
+
+.space-border {
+	float: left;
+	margin-left: 2%;
+}
+
+.center-element {
+    top: 30%;
+    left: 30%;
+    position: relative;
+}
+
+.animation-left {
+	animation-duration: 2s;
+  	animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+  from {
+    margin-left: 41%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 80%;
+  }
+}

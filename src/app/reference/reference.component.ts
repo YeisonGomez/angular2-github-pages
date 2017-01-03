@@ -16,11 +16,16 @@ export class ReferenceComponent implements OnInit {
 				logo: "http://chaira.udla.edu.co/Api/Resources/imgs/LogoUA.svg",
 				description: "La Universidad de la Amazonia se encuentra ubicada la ciudad colombiana de Florencia, capital del departamento del Caquetá.",
 				rol: "Desarrollador Full Stack",
-				site: "http://www.udla.edu.co/v10/"
+				site: "http://www.udla.edu.co/v10/",
+				util : false
 			}
 		];
 	}
 
 	ngOnInit() {
+	}
+
+	changeStateDescription(i): void{
+		this.references[i].util = !this.references[i].util;
 	}
 }
