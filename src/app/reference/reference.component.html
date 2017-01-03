@@ -1,6 +1,5 @@
 <br><br>
-<h1>En desarrollo..</h1>
-<div *ngFor="let reference of references; let i = index" 
+<div *ngFor="let reference of references; let i = index" style="width: 90%; margin-left: 3%"
 	[ngClass]="{'animation-left': reference.util, 'center-div': !reference.util}">
 
 	<a (click)="changeStateDescription(i)" [ngClass]="{'center-element': !reference.util, 'space-border': reference.util}">
@@ -8,10 +7,17 @@
 	</a>
 
 	<a href="{{reference.site}}" target="_blank" class="link" [hidden]="reference.util">
-		<h2 class="blue-col">{{reference.name}}</h2>
+		<h2 class="blue-col name-general" align="center">{{reference.name}}</h2>
 	</a>
 
-	<div style="background: lightgray;" class="information" [hidden]="!reference.util">
-		<h1>{{reference.name}}</h1>
+	<div class="information" [hidden]="!reference.util">
+		<div class="content-information">
+			<a href="{{reference.site}}" target="_blank" class="link">
+				<h2 class="blue-col name-reference">{{reference.name}}</h2>
+			</a>
+			<p class="description-reference text-ligthgray">{{reference.description}}</p>
+			<p class="text-ligthgray">Cargo: {{reference.rol}}</p>
+		</div>
 	</div>
+	<div [ngClass]="{ 'padding': reference.util }"></div>
 </div>

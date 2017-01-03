@@ -1,21 +1,49 @@
+.name-general {
+  margin-left: 15%;
+}
+
 .information {
+  background: whitesmoke;
 	width: 70%; 
-	height: 6em;
+	height: 8em;
 	float: left;
 	border-radius: 30px;
-	margin-top: 1%;
+  margin-left: 40px;
+  -webkit-box-shadow: 10px 7px 10px -1px rgba(179,179,179,1);
+  -moz-box-shadow: 10px 7px 10px -1px rgba(179,179,179,1);
+  box-shadow: 10px 7px 10px -1px rgba(179,179,179,1);
+}
+
+.padding {
+  padding-bottom: 183px;
+}
+
+.content-information {
+  margin-left: 3%;
+}
+
+.name-reference {
+  margin-top: 1%;
+}
+
+.text-ligthgray {
+  color: #676a6c;
+}
+
+.description-reference {
+  margin-top: -2%;
 }
 
 .center-div {
 	margin-left: auto;
-    margin-right: auto;
-    display: table;
+  margin-right: auto;
+  display: table;
 }
 
 .circular {
 	width: 110px;
-    height: 110px;
-    border-radius: 100px;
+  height: 110px;
+  border-radius: 100px;
 }
 
 .shadown-border {
@@ -26,18 +54,18 @@
 
 .space-border {
 	float: left;
-	margin-left: 2%;
 }
 
 .center-element {
-    top: 30%;
-    left: 30%;
+    top: 40%;
+    bottom: 30%;
+    left: 50%;
     position: relative;
 }
 
 .animation-left {
 	animation-duration: 2s;
-  	animation-name: slideLeft;
+	animation-name: slideLeft;
 }
 
 @keyframes slideLeft {
@@ -47,7 +75,7 @@
   }
 
   to {
-    margin-left: 0%;
+    margin-left: 3%;
     width: 80%;
   }
 }

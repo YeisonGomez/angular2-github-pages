@@ -13,7 +13,8 @@ export class SkillsComponent implements OnInit {
 	constructor() { 
 		this.skills = [
 			{ platform: "Web", skills: [
-				{ name: "HTML/CSS", lvl: 400 },
+				{ name: "HTML", lvl: 600 },
+				{ name: "CSS", lvl: 100 },
 				{ name: "Javascript", lvl: 650},
 				{ name: icons.angular1.title, lvl: 650, link: icons.angular1.link },
 				{ name: icons.angular2.title, lvl: 550, link: icons.angular2.link }

@@ -10,13 +10,13 @@
 
 .project-container{
 	display: inline-block;
-    width: 35%;
+  width: 35%;
 	text-align: center;
 	margin-top: 5%;
 	margin-right: 5%;
 	background: whitesmoke;
-    box-shadow: 0 0 20px lightgrey;
-    padding: 10px; 
+  box-shadow: 0 0 20px lightgrey;
+  padding: 10px; 
 }
 
 .project-container h1{
