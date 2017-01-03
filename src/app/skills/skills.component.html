@@ -1,18 +1,28 @@
 <div class="content-skills">
 
-    <section *ngFor="let platform of skills">
-        <div class="divider">{{platform.platform}}</div>
+    <section *ngFor="let platform of skills; let x = index">
+        <a class="link" (click)="changeStateView(x)">
+            <div [ngClass]="{'blue-divider': !platform.util}" class="divider">
+                {{platform.platform}} 
+                <span *ngIf="!platform.util" class="size-icon-flecha">▼</span>
+                <span *ngIf="platform.util" class="size-icon-flecha">▲</span>
+                
+            </div>
+        </a>
         <br>
-        <div class="container-skill" *ngFor="let skill of platform.skills; let i = index">
-            <div class="float-left skill-panel-name slideInLeft">
-                <a *ngIf="skill.link" href="{{skill.link}}" target="_blank" class="link"><p>{{skill.name}}</p></a>
-                <p *ngIf="!skill.link">{{skill.name}}</p>
+        <section *ngIf="platform.util">
+            <div class="container-skill" *ngFor="let skill of platform.skills; let i = index">
+                <div class="float-left skill-panel-name slideInLeft">
+                    <a *ngIf="skill.link" href="{{skill.link}}" target="_blank" class="link"><p>{{skill.name}}</p></a>
+                    <p *ngIf="!skill.link">{{skill.name}}</p>
+                </div>
+                <div class="float-left skill-panel-bars" 
+                    [ngClass]="{'slideInLeft': (i % 2 == 0), 'slideInRigth': (i % 2 != 0)}">
+                    <div [style.width.%]="(skill.lvl * 100)/700"></div>
+                </div>
             </div>
-            <div class="float-left skill-panel-bars" 
-                [ngClass]="{'slideInLeft': (i % 2 == 0), 'slideInRigth': (i % 2 != 0)}">
-                <div [style.width.%]="(skill.lvl * 100)/700"></div>
-            </div>
-        </div>
+            <br><br><br>
+        </section>
     </section>
 </div>
 <br><br><br><br><br>

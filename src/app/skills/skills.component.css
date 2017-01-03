@@ -1,10 +1,20 @@
 .divider {
   border-bottom: solid 1px lightgray;
   clear: left;
-  color:lightgray;
+  color: lightgray;
   width: 90%;
   padding-bottom: 2px;
   font-size: 1.15em;
+}
+
+.size-icon-flecha {
+  font-size: 0.6em;
+  float: right;
+}
+
+.blue-divider {
+  border-bottom: solid 1px #3385FF;
+  color: #3385FF;
 }
 
 .float-left {

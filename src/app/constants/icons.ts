@@ -5,5 +5,12 @@ export const icons: any = {
   nodejs: { title: 'Nodejs', icon: 'https://yeisongomez.github.io/assets/imgs/nodejs.png', link : "https://nodejs.org/es/" },
   asmx: { title: '.NET/Asmx', icon: 'https://yeisongomez.github.io/assets/imgs/net.png', link : "https://msdn.microsoft.com/en-us/library/ms972326.aspx" },
   flask: { title: 'Python/Flask', icon: 'https://yeisongomez.github.io/assets/imgs/flask.png', link : "https://www.fullstackpython.com/flask.html" },
-  swift: { title: 'Swift', icon: 'https://yeisongomez.github.io/assets/imgs/swift.png', link : "http://www.apple.com/co/swift/" }
+  swift: { title: 'Swift', icon: 'https://yeisongomez.github.io/assets/imgs/swift.png', link : "http://www.apple.com/co/swift/" },
+  //otros
+  git: { title: 'Git/Github', icon: 'https://yeisongomez.github.io/assets/imgs/git.png', link : "https://github.com/" },
+  npm: { title: 'npm', icon: 'https://yeisongomez.github.io/assets/imgs/npm.png', link : "https://www.npmjs.com/" },
+  bootstrap: { title: 'Bootstrap', icon: 'https://yeisongomez.github.io/assets/imgs/bootstrap.png', link : "http://getbootstrap.com/" },
+  gulp: { title: 'Gulp', icon: 'https://yeisongomez.github.io/assets/imgs/gulp.png', link : "http://gulpjs.com/" },
+  mysql: { title: 'MySQL', icon: 'https://yeisongomez.github.io/assets/imgs/mysql.png', link : "https://www.mysql.com/" },
+  firebase: { title: 'Firebase', icon: 'https://yeisongomez.github.io/assets/imgs/firebase.png', link : "https://www.firebase.com/" }
 };
