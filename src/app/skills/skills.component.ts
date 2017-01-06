@@ -26,6 +26,7 @@ export class SkillsComponent implements OnInit {
 			]},
 			{ platform: "Móvil", util: true, skills: [
 				{ name: icons.ionic1.title, lvl: 630, link: icons.ionic1.link },
+				{ name: icons.android.title, lvl: 400, link: icons.android.link },
 				{ name: icons.swift.title, lvl: 50, link: icons.swift.link }
 			]},
 			{ platform: "Otros", util: false, skills: [
