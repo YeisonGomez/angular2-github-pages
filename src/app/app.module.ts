@@ -23,7 +23,7 @@ import { ReferenceComponent } from './reference/reference.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterialModule.forRoot(),
+    MaterialModule,
     AppRoutingModule
   ],
   providers: [],
