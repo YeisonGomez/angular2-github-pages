@@ -18,7 +18,9 @@
                 </div>
                 <div class="float-left skill-panel-bars" 
                     [ngClass]="{'slideInLeft': (i % 2 == 0), 'slideInRigth': (i % 2 != 0)}">
-                    <div [style.width.%]="(skill.lvl * 100)/700"></div>
+                    <div [style.width.%]="(skill.lvl * 100)/700" style="text-align: center;">
+                        <span style="vertical-align: super; font-size: 0.8em; color: white">{{(((skill.lvl * 100)/700) + '').split('.')[0]}}%</span>
+                    </div>
                 </div>
             </div>
             <br><br><br>
